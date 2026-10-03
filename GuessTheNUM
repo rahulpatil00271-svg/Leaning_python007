@@ -1,0 +1,21 @@
+
+import random
+def play_game():
+    lucky_no = random.randint(1,50) #input from 1 to 50 
+
+    while True:
+       user_no = int(input("Guess the No. "))
+
+       if user_no == lucky_no:
+           print("U WON ")
+
+       elif user_no< lucky_no:
+           print("Less then Lucky No.")
+
+       elif user_no > lucky_no:
+           print("Greater the lucky No.")
+
+       else:
+           print("Invalid input ")
+play_game()
+   
