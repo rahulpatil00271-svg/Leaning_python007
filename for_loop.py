@@ -41,8 +41,3 @@ for i in nums:
     idx +=1
 
 
-#Questions
-#1
-for z in range(101):
-    print(z)
-    
