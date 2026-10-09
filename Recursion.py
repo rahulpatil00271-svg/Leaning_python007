@@ -47,9 +47,9 @@ print(cal_sum(9))
 
 #Recursion in List
 def print_list(list, idx =0):
-    if idx == len(list): #if index value = Len (i.e last value) it's 
+    if idx == len(list): #if index value = len (i.e last value) it's 
         return #returns <stops> 
-    print(list[idx]) #print value at idx 0
+    print(list[idx]) #print value at idx 0 (As idx != len)
     print_list(list,idx+1) #goes to Next index value
 
 fruits = ["Mango", "Apple", "Chikoooo","carrot"]
